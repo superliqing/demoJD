@@ -1,0 +1,15 @@
+{
+  "name": "demoJD",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start"
+  },
+  "dependencies": {
+    "react": "15.1.0",
+    "react-native": "0.28.0",
+    "react-native-swiper": "^1.4.6",
+    "react-native-tab-navigator": "^0.3.2",
+    "react-native-viewpager": "^0.2.11"
+  }
+}
