@@ -23,6 +23,7 @@ import ViewPager from 'react-native-viewpager';
 import Dimensions from 'Dimensions';
 import Swiper from 'react-native-swiper';
 import CategoryPage from './modules/categoryPage';
+import Discovery from './modules/discovery';
 
 const index_json = {
     "naviVer": "1467035330000",
@@ -3961,7 +3962,7 @@ class demoJD extends Component {
               renderIcon={()=><Image source={require('./image/tabIcons/faxian_normal.png')} style={styles.tabImage}/>}
               renderSelectedIcon={()=><Image source={require('./image/tabIcons/faxian_focus.png')} style={styles.tabImage}/>}
               onPress={()=>this.setState({selectedTab:'find'})}>
-              <Text>this is find View</Text>
+              <Discovery/>
             </TabNavigator.Item>
             <TabNavigator.Item
               selected={this.state.selectedTab == 'cart'}
